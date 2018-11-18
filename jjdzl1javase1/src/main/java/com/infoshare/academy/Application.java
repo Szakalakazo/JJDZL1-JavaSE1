@@ -8,6 +8,12 @@ public class Application {
 
         int result = sum(2, 5);
         System.out.println("Wynik: " + result);
+
+        Card visa = new Card("Visa", "134567");
+        Card masterCard = new Card("MasterCard", "6789");
+
+        visa.printData();
+        masterCard.printData();
     }
 
     public static int sum(int number1, int number2) {
